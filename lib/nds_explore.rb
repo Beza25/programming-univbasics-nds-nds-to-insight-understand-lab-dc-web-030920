@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   row = 0 
   while row < directors_database[0][:movies].length do 
     to_print = directors_database[0][:movies][row][:title]
-    pp #{to_print}
+    puts #{to_print}
     row += 1
   end
 end
