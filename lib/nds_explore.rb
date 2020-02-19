@@ -12,8 +12,7 @@ end
 def print_first_directors_movie_titles
   row = 0 
   while row < directors_database[0][:movies].length do 
-    x = directors_database[0][:movies][row][:title]
-    puts #{x}
+    directors_database[0][:movies][row][:title]
     row += 1
   end
 end
